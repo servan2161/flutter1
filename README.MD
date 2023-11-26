@@ -1,6 +1,10 @@
 Danışman: @keyvanarasteh https://github.com/keyvanarasteh
 <br>
-Öğrenci : @ zülfikarServanakgümüş 221216070
+Öğrenci : @ zülfikarServanakgümüş 
+<br>
+öğrenci Numarası : 221216070
+<br>
+öğrenci maili : 221216070@stu.istinye.edu.tr
 
 <a href="https://codescene.com/" rel="nofollow">
    <img src="https://github.com/servan2161/flutter1/assets/112212734/8c842610-5fce-495a-90be-439aacda721c" width="210" height="393" >
