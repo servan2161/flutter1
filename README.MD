@@ -1,6 +1,6 @@
 Danışman: @keyvanarasteh https://github.com/keyvanarasteh
 <br>
-Öğrenci : @ zülfikarServanakgümüş 
+Öğrenci : @zülfikarServanakgümüş 
 <br>
 öğrenci Numarası : 221216070
 <br>
