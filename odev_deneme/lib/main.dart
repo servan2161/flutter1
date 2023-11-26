@@ -146,7 +146,7 @@ class MyApp extends StatelessWidget {
       Container(
         child: Column(
           children: [
-            likecommetbox(),
+            postHeader(avatar, name),
             Padding(padding: const EdgeInsets.all(8.0)),
             Image.asset(foto),
             Padding(
@@ -175,7 +175,7 @@ class MyApp extends StatelessWidget {
         ),
       );
 
-  Padding likecommetbox() {
+  Padding postHeader(String avatar, String name) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Row(
@@ -186,7 +186,7 @@ class MyApp extends StatelessWidget {
               CircleAvatar(
                 radius: 20,
                 backgroundImage: AssetImage(
-                  "assets/images/servan.jpg",
+                  avatar,
                 ),
               ),
               SizedBox(
@@ -196,7 +196,7 @@ class MyApp extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "servan_akgm",
+                    name,
                     style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
                   ),
                   Text(
@@ -226,13 +226,16 @@ class MyApp extends StatelessWidget {
                 text: TextSpan(children: [
                   TextSpan(
                       text: name,
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 13)),
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13)),
                   TextSpan(text: "  "),
                   TextSpan(
-                    text: yorum,
-                    //style: TextStyle()
-                  )
+                      text: yorum,
+                      style: TextStyle(
+                        color: Colors.black54,
+                      ))
                 ])),
           ),
         ],
